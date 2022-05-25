@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome to booking ticket moviee booking"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Have a good day",
+        "Have a great day",
+        ""
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "tickets",
+      "patterns": [
+        "what type of tickets are available?",
+        "what are the ticket prices?",
+        "How many tickets are available?",
+        "How many gold tickets are available?",
+        "How many platinum tickets are available?",
+        "How many silver tickets are available?",
+        "How many gold seats are their?",
+        "How many silver seats are their?",
+        "How many platinum seats are their?",
+        "Is their a student discount available?",
+        ""
+      ],
+      "responses": [
+        "Which type of ticket you want",
+        "We have platinum,gold and silver seats",
+        "We have 1 gold ticket left",
+        "We have 2 gold tickets",
+        "We have 3 gold ticket",
+        "We have some gold tickets left",
+        "We have 1 platinum ticket left",
+        "We have 2 platinum ticket",
+        "We have 3 platinum ticket",
+        "We have some platinum tickets available",
+        "We have 1 silver ticket left",
+        "We have 2 silver ticket",
+        "We have 3 silver ticket",
+        "We have some silver tickets available",
+        "Hi there, what can I do for you?",
+        "The prices range from 20-50 pounds",
+        "Yes, student discount is available"
+      ]
+    },
+    
+    {
+      "tag": "movie",
+      "patterns": [
+        "What all languages movie are shown?",
+        "Which all movie are being shown",
+        "What time is the movie? ",
+        "Where is the movie screening?",
+        "Which screen will the movie be screening?",
+        "Till what time can we arrive?",
+        "Is food allowed inside?",
+        "Is their 3D screen ?",
+        "What time slots are available for movie Mission Impossible?",
+        "What time slots are available for movie K.G.F 2?",
+        "What time slots are available for movie Moonfall?",
+        "What time slots are available for movie The contractor?",
+        "What time slots are available for movie Ambulance?",
+        "What time slots are available for movie RRR?",
+        "What time slots are available for movie The Spiderman?"
+      ], 
+      "response": [
+        "The movies that are being shown are Mission Impossible, K.G.F 2, Moonfall, The contractor, Ambulance, RRR, The Spiderman ",
+        "The movie time is mentioned in the Ticket page.If you want further information I can let you know",
+        "The movie is going to be screened on screen 1 which is 2D ",
+        "The movie is going to be screened on screen 3 which is 2D ",
+        "The movie is going to be screened on screen 2 which is 2D ",
+        "The movie is going to be screened on screen 4 which is 3D ",
+        "Yes, there is 3D screen in the theatre",
+        "You can arrive by anytime but it would be best to come before the moovie starts so that you don't miss it",
+        "No food is not allowed inside",
+        "You can buy food from inside the theatre",
+        ""
+
+
+
+
+      ]
+    
+
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "what all payment options are there",
+        "The payment is not being accepted",
+        "Error is coming while paying"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

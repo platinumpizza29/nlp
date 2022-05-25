@@ -1,3 +1,6 @@
 torch
 nltk
 notebook
+pandas
+json
+random

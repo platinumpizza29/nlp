@@ -34,7 +34,7 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
-      - id: jupyter execution
+      - id: jupyterExecution
         name: execution jupyter notebook
         run: jupyter execute nlpCW.ipynb
         shell: bash

@@ -36,5 +36,7 @@ jobs:
 
       - id: jupyterExecution
         name: execution jupyter notebook
-        run: jupyter execute nlpCW.ipynb
+        run: |
+             jupyter execute nlpCW.ipynb
+             echo "Branch: ${{ github.event.inputs.branch }}"
         shell: bash
